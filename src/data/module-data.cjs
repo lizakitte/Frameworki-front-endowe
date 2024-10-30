@@ -18,7 +18,8 @@ fs.readFile('src/data/names.txt', 'utf8', (err, data) => {
         const person = {
             id: i + 1,
             name,
-            eyes: eyes[~~((Math.random() * eyes.length) / 1)]
+            eyes: eyes[~~((Math.random() * eyes.length) / 1)],
+            rating: Math.round(Math.random() * 10)
         }
         content += `${JSON.stringify(person, undefined, 4)},\n`
     }

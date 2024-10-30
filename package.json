@@ -15,7 +15,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "dev": "node src/data/module-data.cjs 10 && react-scripts start",
+    "dev": "node src/data/module-data.cjs 50 && react-scripts start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
