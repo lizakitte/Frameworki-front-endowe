@@ -1,7 +1,11 @@
 import { useState } from "react";
 import RatingBar from "./RatingBar";
+import AppContext from "../data/AppContext";
+import { useContext } from "react";
 
-function PersonProfile({id, name, eyes, rating, dispatch}) {
+function PersonProfile({id, name, eyes, rating}) {
+    const context = useContext(AppContext);
+    const dispatch = context.dispatch;
     return (
         <div>
             <p>id: {id}</p>
@@ -23,7 +27,6 @@ function PersonProfile({id, name, eyes, rating, dispatch}) {
                     });
                 }}> 
                     Delete </button>
-            {/* <button onClick={() => setRating((Rating + 1) % 11)}>  */}
             <button onClick={() => { 
                 dispatch({
                     type: "rate",
