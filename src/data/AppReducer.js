@@ -13,7 +13,7 @@ export default function AppReducer(state, action) {
         case "delete": {
             const newState = structuredClone(state);
             newState.splice(index, 1);
-            return newState;   
+            return newState;
         }
         case "add": {
             const newState = structuredClone(state);

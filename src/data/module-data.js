@@ -1,301 +1,301 @@
 export const data = [{
     "id": 1,
-    "name": "Stanisław",
-    "eyes": "gray",
+    "name": "Monika",
+    "eyes": "brown",
     "rating": 6
 },
 {
     "id": 2,
-    "name": "Karol",
-    "eyes": "gray",
-    "rating": 2
+    "name": "Ewelina",
+    "eyes": "brown",
+    "rating": 4
 },
 {
     "id": 3,
-    "name": "Ewelina",
-    "eyes": "gray",
-    "rating": 5
+    "name": "Karol",
+    "eyes": "green",
+    "rating": 9
 },
 {
     "id": 4,
-    "name": "Monika",
-    "eyes": "green",
-    "rating": 5
+    "name": "Karol",
+    "eyes": "gray",
+    "rating": 4
 },
 {
     "id": 5,
-    "name": "Ewelina",
-    "eyes": "blue",
-    "rating": 5
+    "name": "Karol",
+    "eyes": "gray",
+    "rating": 3
 },
 {
     "id": 6,
-    "name": "Stanisław",
+    "name": "Monika",
     "eyes": "blue",
-    "rating": 4
+    "rating": 0
 },
 {
     "id": 7,
     "name": "Stanisław",
     "eyes": "blue",
-    "rating": 2
+    "rating": 4
 },
 {
     "id": 8,
     "name": "Stanisław",
-    "eyes": "green",
-    "rating": 3
+    "eyes": "brown",
+    "rating": 10
 },
 {
     "id": 9,
     "name": "Monika",
-    "eyes": "blue",
-    "rating": 7
+    "eyes": "gray",
+    "rating": 3
 },
 {
     "id": 10,
     "name": "Stanisław",
-    "eyes": "green",
-    "rating": 0
+    "eyes": "blue",
+    "rating": 6
 },
 {
     "id": 11,
-    "name": "Ewelina",
-    "eyes": "brown",
-    "rating": 5
+    "name": "Stanisław",
+    "eyes": "blue",
+    "rating": 1
 },
 {
     "id": 12,
     "name": "Stanisław",
     "eyes": "gray",
-    "rating": 4
+    "rating": 1
 },
 {
     "id": 13,
-    "name": "Ewelina",
-    "eyes": "brown",
-    "rating": 1
+    "name": "Monika",
+    "eyes": "green",
+    "rating": 3
 },
 {
     "id": 14,
-    "name": "Ewelina",
+    "name": "Stanisław",
     "eyes": "gray",
-    "rating": 8
+    "rating": 7
 },
 {
     "id": 15,
-    "name": "Stanisław",
-    "eyes": "brown",
-    "rating": 4
+    "name": "Karol",
+    "eyes": "gray",
+    "rating": 2
 },
 {
     "id": 16,
-    "name": "Monika",
-    "eyes": "brown",
-    "rating": 4
-},
-{
-    "id": 17,
-    "name": "Monika",
-    "eyes": "brown",
-    "rating": 6
-},
-{
-    "id": 18,
     "name": "Karol",
-    "eyes": "brown",
+    "eyes": "green",
     "rating": 1
 },
 {
-    "id": 19,
-    "name": "Ewelina",
+    "id": 17,
+    "name": "Stanisław",
     "eyes": "gray",
+    "rating": 7
+},
+{
+    "id": 18,
+    "name": "Ewelina",
+    "eyes": "blue",
     "rating": 8
+},
+{
+    "id": 19,
+    "name": "Monika",
+    "eyes": "gray",
+    "rating": 4
 },
 {
     "id": 20,
     "name": "Ewelina",
     "eyes": "blue",
-    "rating": 1
+    "rating": 2
 },
 {
     "id": 21,
-    "name": "Monika",
-    "eyes": "brown",
-    "rating": 9
+    "name": "Ewelina",
+    "eyes": "blue",
+    "rating": 2
 },
 {
     "id": 22,
-    "name": "Stanisław",
-    "eyes": "blue",
-    "rating": 5
+    "name": "Karol",
+    "eyes": "brown",
+    "rating": 1
 },
 {
     "id": 23,
-    "name": "Ewelina",
-    "eyes": "brown",
-    "rating": 5
+    "name": "Karol",
+    "eyes": "gray",
+    "rating": 6
 },
 {
     "id": 24,
-    "name": "Monika",
-    "eyes": "brown",
-    "rating": 5
+    "name": "Ewelina",
+    "eyes": "green",
+    "rating": 1
 },
 {
     "id": 25,
     "name": "Karol",
     "eyes": "blue",
-    "rating": 6
+    "rating": 8
 },
 {
     "id": 26,
-    "name": "Ewelina",
-    "eyes": "brown",
-    "rating": 1
+    "name": "Monika",
+    "eyes": "gray",
+    "rating": 3
 },
 {
     "id": 27,
-    "name": "Monika",
-    "eyes": "brown",
-    "rating": 2
+    "name": "Karol",
+    "eyes": "green",
+    "rating": 3
 },
 {
     "id": 28,
-    "name": "Stanisław",
-    "eyes": "brown",
-    "rating": 1
+    "name": "Ewelina",
+    "eyes": "gray",
+    "rating": 4
 },
 {
     "id": 29,
     "name": "Karol",
-    "eyes": "green",
-    "rating": 5
+    "eyes": "gray",
+    "rating": 3
 },
 {
     "id": 30,
-    "name": "Karol",
-    "eyes": "gray",
-    "rating": 8
+    "name": "Ewelina",
+    "eyes": "green",
+    "rating": 4
 },
 {
     "id": 31,
     "name": "Ewelina",
-    "eyes": "green",
-    "rating": 4
+    "eyes": "brown",
+    "rating": 6
 },
 {
     "id": 32,
-    "name": "Ewelina",
-    "eyes": "green",
-    "rating": 4
+    "name": "Monika",
+    "eyes": "gray",
+    "rating": 1
 },
 {
     "id": 33,
     "name": "Stanisław",
     "eyes": "gray",
-    "rating": 9
+    "rating": 5
 },
 {
     "id": 34,
+    "name": "Ewelina",
+    "eyes": "green",
+    "rating": 3
+},
+{
+    "id": 35,
     "name": "Monika",
     "eyes": "brown",
     "rating": 4
 },
 {
-    "id": 35,
-    "name": "Ewelina",
-    "eyes": "gray",
-    "rating": 2
-},
-{
     "id": 36,
     "name": "Ewelina",
-    "eyes": "brown",
-    "rating": 5
+    "eyes": "green",
+    "rating": 9
 },
 {
     "id": 37,
-    "name": "Monika",
-    "eyes": "gray",
-    "rating": 9
-},
-{
-    "id": 38,
     "name": "Stanisław",
     "eyes": "brown",
-    "rating": 1
-},
-{
-    "id": 39,
-    "name": "Karol",
-    "eyes": "gray",
-    "rating": 8
-},
-{
-    "id": 40,
-    "name": "Karol",
-    "eyes": "green",
     "rating": 2
 },
 {
-    "id": 41,
-    "name": "Stanisław",
-    "eyes": "blue",
-    "rating": 6
-},
-{
-    "id": 42,
-    "name": "Ewelina",
-    "eyes": "brown",
+    "id": 38,
+    "name": "Monika",
+    "eyes": "green",
     "rating": 9
 },
 {
-    "id": 43,
-    "name": "Karol",
-    "eyes": "green",
-    "rating": 5
-},
-{
-    "id": 44,
+    "id": 39,
     "name": "Stanisław",
     "eyes": "brown",
     "rating": 7
 },
 {
-    "id": 45,
-    "name": "Monika",
+    "id": 40,
+    "name": "Ewelina",
+    "eyes": "gray",
+    "rating": 7
+},
+{
+    "id": 41,
+    "name": "Stanisław",
+    "eyes": "green",
+    "rating": 8
+},
+{
+    "id": 42,
+    "name": "Stanisław",
     "eyes": "blue",
+    "rating": 7
+},
+{
+    "id": 43,
+    "name": "Karol",
+    "eyes": "gray",
+    "rating": 8
+},
+{
+    "id": 44,
+    "name": "Monika",
+    "eyes": "brown",
     "rating": 4
 },
 {
-    "id": 46,
+    "id": 45,
     "name": "Stanisław",
     "eyes": "brown",
-    "rating": 9
+    "rating": 8
+},
+{
+    "id": 46,
+    "name": "Ewelina",
+    "eyes": "gray",
+    "rating": 4
 },
 {
     "id": 47,
     "name": "Stanisław",
-    "eyes": "green",
-    "rating": 6
+    "eyes": "brown",
+    "rating": 4
 },
 {
     "id": 48,
-    "name": "Ewelina",
-    "eyes": "brown",
-    "rating": 6
+    "name": "Karol",
+    "eyes": "blue",
+    "rating": 10
 },
 {
     "id": 49,
-    "name": "Monika",
-    "eyes": "brown",
-    "rating": 2
+    "name": "Stanisław",
+    "eyes": "blue",
+    "rating": 3
 },
 {
     "id": 50,
-    "name": "Ewelina",
-    "eyes": "brown",
+    "name": "Stanisław",
+    "eyes": "blue",
     "rating": 8
 },
 ];

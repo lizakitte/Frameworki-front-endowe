@@ -1,11 +1,9 @@
-import { useState } from "react";
 import RatingBar from "./RatingBar";
-import AppContext from "../data/AppContext";
-import { useContext } from "react";
+import { redirect} from "react-router-dom";
+import useDispatch from "../hooks/useDispatch";
 
 function PersonProfile({id, name, eyes, rating}) {
-    const context = useContext(AppContext);
-    const dispatch = context.dispatch;
+    const dispatch = useDispatch();
     return (
         <div>
             <p>id: {id}</p>
@@ -13,21 +11,16 @@ function PersonProfile({id, name, eyes, rating}) {
             <p>eyes: {eyes}</p>
             <p>rating: {rating}</p>
             <RatingBar rate={rating}></RatingBar>
-            <button onClick={() => {
-                dispatch({
-                    type: "edit",
-                    id: id
-                    });
-                }}>
+            <button class="btn btn-success" onClick={() => redirect("/lab4/edit/"+id)}>
                     Edit </button>
-            <button onClick={() => { 
+            <button class="btn btn-success" onClick={() => { 
                 dispatch({
                     type: "delete",
                     id: id
                     });
                 }}> 
                     Delete </button>
-            <button onClick={() => { 
+            <button class="btn btn-success" onClick={() => { 
                 dispatch({
                     type: "rate",
                     id: id,
@@ -35,6 +28,7 @@ function PersonProfile({id, name, eyes, rating}) {
                     });
                 }}>    
                     Rate </button>
+            <br></br>
             <br></br>
         </div>
     )

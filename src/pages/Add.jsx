@@ -40,16 +40,19 @@ export default function Add() {
     return (
         <>
             <form onSubmit={handleSubmit(onSubmit)}>
-                <input {...register("name")}/>
-                <label htmlFor="name">Name</label>
+                <h1>Add</h1>
+                <label class="col-sm-2" htmlFor="name">Name</label>
+                <input class="col-sm-4 form-control" style={{margin: "auto"}} {...register("name")}/>
                 <br/>
-                <input {...register("rating")}/>
-                <label htmlFor="rating">Rating</label>
+                <label class="col-sm-2" htmlFor="rating">Rating</label>
+                <input class="col-sm-4 form-control" style={{margin: "auto"}} {...register("rating")}/>
                 <br/>
-                <input {...register("eyes")}/>
-                <label htmlFor="eyes">Eyes</label>
+                <label class="col-sm-2" htmlFor="eyes">Eyes</label>
+                <input class="col-sm-4 form-control" style={{margin: "auto"}} {...register("eyes")}/>
                 <br/>
-                <input disabled={isSending} type="submit"/>
+                <input disabled={isSending} type="submit" class="btn btn-success"/>
+                <br></br>
+                <br></br>
             </form>
         </>
     );

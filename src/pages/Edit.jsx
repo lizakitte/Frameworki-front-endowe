@@ -49,14 +49,8 @@ function Edit() {
     <>
       <h1>Edit</h1>
 
-      <div className="text-danger">
-        {errors.map((e, i) => (
-          <p key={i}>{e}</p>
-        ))}
-      </div>
-
       <Form className="text" onSubmit={onSubmitFunction}>
-        <Form.Group className="mb-3">
+        <Form.Group className="mb-3 col-sm-4" style={{margin: "auto"}}>
           <Form.Label htmlFor={nameField}>Name</Form.Label>
           <FormControl
             required
@@ -64,10 +58,9 @@ function Edit() {
             type={nameField}
             name={nameField}
             className="text-lg"
-            placeholder="Enter name"
           />
         </Form.Group>
-        <Form.Group className="mb-3">
+        <Form.Group className="mb-3 col-sm-4" style={{margin: "auto"}}>
           <Form.Label htmlFor={eyesField}>Eyes</Form.Label>
           <FormControl
             required
@@ -75,10 +68,9 @@ function Edit() {
             type={eyesField}
             minLength={2}
             name={eyesField}
-            placeholder="Enter eyes color"
           />
         </Form.Group>
-        <Form.Group className="mb-3">
+        <Form.Group className="mb-3 col-sm-4" style={{margin: "auto"}}>
           <Form.Label htmlFor={ratingField}>Rating</Form.Label>
           <FormControl
             required
@@ -86,7 +78,6 @@ function Edit() {
             type={ratingField}
             name={ratingField}
             minLength={1}
-            placeholder="enter rating"
           />
         </Form.Group>
 
@@ -94,9 +85,9 @@ function Edit() {
           <Button
             disabled={isSending}
             type="submit"
-            variant="outline-dark"
+            variant="success"
             size="lg">
-            Register
+            Save
           </Button>
         </div>
         <br></br>
